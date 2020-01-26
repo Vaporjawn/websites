@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {block:Description}
+    <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+    <title>{block:TagPage}{Tag} posts - {/block:TagPage} {block:SearchPage}{lang:Search results for SearchQuery} - {/block:SearchPage}{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+    {block:Hidden}
+    <meta name="color:Menu bar background" content="#fff"/>
+    <meta name="color:Menu bar text color" content="#222"/>
+    <meta name="if:Transparent menu bar" content="0"/>
+    <meta name="if:Bold title" content="0"/>
+    <meta name="image:Background image" content=""/>
+    <meta name="select:Body font" content="Cabin" title="Cabin">
+    <meta name="select:Body font" content="Source Sans Pro" title="Source Sans Pro">
+    <meta name="select:Body font" content="Droid Serif" title="Droid Serif">
+    <meta name="select:Body font" content="Lato" title="Lato">
+    <meta name="select:Body font" content="Vollkorn" title="Volkorn">
+    <meta name="select:Body font" content="Merriweather" title="Merriweather">
+    <meta name="select:Body font" content="PT Sans" title="PT Sans">
+    <meta name="select:Body font" content="Roboto Slab" title="Roboto Slab">
+    <meta name="select:Body font" content="Raleway" title="Raleway">
+    <meta name="select:Body font" content="Varela" title="Varela">
+    <meta name="select:Body font" content="Varela Round" title="Varela Round">
+    <meta name="select:Body font" content="Open Sans" title="Open Sans">
+    <meta name="select:Body font" content="Arial" title="Arial">
+    <meta name="select:Body font" content="Georgia" title="Georgia">
+    <meta name="select:Header font" content="Open Sans" title="Open Sans">
+    <meta name="select:Header font" content="Source Sans Pro" title="Source Sans Pro">
+    <meta name="select:Header font" content="Cabin" title="Cabin">
+    <meta name="select:Header font" content="Droid Serif" title="Droid Serif">
+    <meta name="select:Header font" content="Lato" title="Lato">
+    <meta name="select:Header font" content="Vollkorn" title="Volkorn">
+    <meta name="select:Header font" content="Merriweather" title="Merriweather">
+    <meta name="select:Header font" content="PT Sans" title="PT Sans">
+    <meta name="select:Header font" content="Roboto Slab" title="Roboto Slab">
+    <meta name="select:Header font" content="Raleway" title="Raleway">
+    <meta name="select:Header font" content="Varela" title="Varela">
+    <meta name="select:Header font" content="Varela Round" title="Varela Round">
+    <meta name="select:Header font" content="Arial" title="Arial">
+    <meta name="select:Header font" content="Georgia" title="Georgia">
+    <meta name="select:Pattern style" content="" title="None">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/wAbmwf0gp/squairy.png" title="Squairy">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/exAmwf0he/p5.png" title="P5">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/xplmwf0ia/worn_dots.png" title="Worn Dots">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/rdPmwf0j3/first_aid_kit.png" title="First Aid Kit">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/AF2mwf0jt/debut_dark.png" title="Debut Dark">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/7vTmwf0kl/dark_fish_skin.png" title="Dark Fish Skin">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/n0Smwf0lh/dark_geometric.png" title="Dark Geometric">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/3Nbmwf0m8/classy_fabric.png" title="Classy Fabric">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/M3rmwf0mw/gplaypattern.png" title="Gplay">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/GPWmwf0ni/arches.png" title="Arches">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/LdMmwf0o5/plaid.png" title="My Little Plaid">
+    <meta name="select:Pattern style" content="http://static.tumblr.com/gmlcyjd/chcmwf0p3/subtle_zebra_3d.png" title="Subtle Zebra">
+    <meta name="select:Layout type" content="three-col" title="3 Columns">
+    <meta name="select:Layout type" content="two-col" title="2 Columns">
+    <meta name="select:Layout type" content="one-col" title="1 Column">
+    <meta name="text:Menu footer text" content=""/>
+    <meta name="text:Website link" content=""/>
+    <meta name="text:Shop link" content=""/>
+    <meta name="text:Facebook link" content=""/>
+    <meta name="text:Twitter link" content=""/>
+    <meta name="text:Google Plus link" content=""/>
+    <meta name="text:Youtube link" content=""/>
+    <meta name="text:Vimeo link" content=""/>
+    <meta name="text:Pinterest link" content=""/>
+    <meta name="text:Dribbble link" content=""/>
+    <meta name="text:Instagram link" content=""/>
+    <meta name="text:SoundCloud link" content=""/>
+    <meta name="text:Spotify link" content=""/>
+    <meta name="text:LinkedIn link" content=""/>
+    <meta name="text:Flickr link" content=""/>
+    <meta name="text:Medium link" content=""/>
+    <meta name="text:Vine link" content=""/>
+    <meta name="text:VK link" content=""/>
+    <meta name="text:Picasa link" content=""/>
+    <meta name="text:GitHub link" content=""/>
+    <meta name="text:LastFm link" content=""/>
+    <meta name="text:Blogger link" content=""/>
+    <meta name="text:Google Analytics ID" content=""/>
+    <meta name="text:Extra Scripts" content=""/>
+    {/block:Hidden}
+    <link rel="stylesheet" type="text/css" href="//static.tumblr.com/vexeq8y/6Xio3p4ik/master.css">
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" href="//static.tumblr.com/vexeq8y/KkEnlzwas/ie.css">
+    <![endif]-->
+    <link href='//fonts.googleapis.com/css?family={select:Body Font}' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family={select:Header Font}' rel='stylesheet' type='text/css'>
+    <style>
+    body {background: {block:IfNotBackgroundImageImage} url('{select:Pattern Style}') repeat {/block:IfNotBackgroundImageImage} {BackgroundColor};
+    font-family: {select:Body Font}, Arial, sans-serif;}
+    h1, h2, h3, h4, .post-qoute blockquote, .search-results, .menu, .menu .nav-search form input, .menu-icon .title {font-family: {select:Header Font}, Arial, sans-serif;}
+    {block:IfBackgroundImageImage}
+    #bg {position:fixed; top: 0px; width:100%; height:100%; background: url('{image:Background Image}') center center no-repeat; background-size: cover;}
+    {/block:IfBackgroundImageImage}
+    a, a:active, cite {color: {AccentColor};}
+    .post-link .link {background: {AccentColor};}
+    .top-bar { {block:IfNotTransparentMenuBar}background: {color:Menu Bar Background}{/block:IfNotTransparentMenuBar}{block:IfTransparentMenuBar} background: rgba(0,0,0,0); {/block:IfTransparentMenuBar};}
+    .menu-close { background: {color:Menu Bar Background};}
+    .top-bar .top-title h1 a, .menu-icon .title {color: {color:Menu Bar Text Color};}
+    .menu-icon span, .menu-icon span:before, .menu-icon span:after {background-color: {color:Menu Bar Text Color};}
+    .grid article.logo h1 a, .grid article.logo h2  {color: {TitleColor};}
+    .pace .pace-progress {background: {color:Menu Bar Text Color};}
+    {CustomCSS}
+    </style>
+    <script src="//static.tumblr.com/vexeq8y/2UWnlzwc5/plugins-top.js" async></script>
+</head>
+<body>
+{block:IfBackgroundImageImage}<div id="bg"></div>{/block:IfBackgroundImageImage}
+<div id="container" class="container">
+    <div class="top-bar">
+        <div class="menu-icon trigger-menu">
+            <span></span>
+            <div class="title">Menu</div>
+        </div>
+    </div>
+    <nav class="menu" id="menu">
+        <div class="menu-close">
+            <div class="menu-icon trigger-menu active">
+                <span></span>
+                <div class="title">{lang:Close}</div>
+            </div>
+        </div>
+        <ul class="main-nav">
+            <li><a href="/">{lang:Home}</a></li>
+            {block:HasPages}
+            {block:Pages}
+            <li><a href="{URL}">{Label}</a></li>
+            {/block:Pages}
+            {/block:HasPages}
+        </ul>
+        <ul class="secondary-nav">
+            <li><a href="/archive">{lang:Archive}</a></li>
+            {block:AskEnabled}
+            <li><a href="/ask">{AskLabel}</a></li>
+            {/block:AskEnabled}
+            {block:SubmissionsEnabled}
+            <li><a href="/submit">{SubmitLabel}</a></li>
+            {/block:SubmissionsEnabled}
+        </ul>
+        <div class="nav-search">
+            <form action="/search" method="get">
+                <input type="text" name="q" value="{SearchQuery}" placeholder="{lang:Search}...">
+                <button type="submit">
+                    <i class="icon-search" aria-hidden="true" data-icon="&#x26b2;"></i>
+                </button>
+            </form>
+        </div>
+        <ul class="social-nav">
+            {block:IfWebsiteLink}
+            <li><a href="{text:Website Link}" target="_blank" aria-hidden="true" data-icon="&#x57;"></a></li>
+            {/block:IfWebsiteLink}
+            {block:IfShopLink}
+            <li><a href="{text:Shop Link}" target="_blank" aria-hidden="true" data-icon="&#x73;"></a></li>
+            {/block:IfShopLink}
+            {block:IfFacebookLink}
+            <li><a href="{text:Facebook Link}" target="_blank" aria-hidden="true" data-icon="&#x46;"></a></li>
+            {/block:IfFacebookLink}
+            {block:IfTwitterLink}
+            <li><a href="{text:Twitter Link}" target="_blank" aria-hidden="true" data-icon="&#x54;"></a></li>
+            {/block:IfTwitterLink}
+            {block:IfGooglePlusLink}
+            <li><a href="{text:Google Plus Link}" target="_blank" aria-hidden="true" data-icon="&#x47;"></a></li>
+            {/block:IfGooglePlusLink}
+            {block:IfYoutubeLink}
+            <li><a href="{text:Youtube Link}" target="_blank" aria-hidden="true" data-icon="&#x59;"></a></li>
+            {/block:IfYoutubeLink}
+            {block:IfVimeoLink}
+            <li><a href="{text:Vimeo Link}" target="_blank" aria-hidden="true" data-icon="&#x56;"></a></li>
+            {/block:IfVimeoLink}
+            {block:IfPinterestLink}
+            <li><a href="{text:Pinterest Link}" target="_blank" aria-hidden="true" data-icon="&#x50;"></a></li>
+            {/block:IfPinterestLink}
+            {block:IfDribbbleLink}
+            <li><a href="{text:Dribbble Link}" target="_blank" aria-hidden="true" data-icon="&#x44;"></a></li>
+            {/block:IfDribbbleLink}
+            {block:IfInstagramLink}
+            <li><a href="{text:Instagram Link}" target="_blank" aria-hidden="true" data-icon="&#x49;"></a></li>
+            {/block:IfInstagramLink}
+            {block:IfSoundCloudLink}
+            <li><a href="{text:SoundCloud Link}" target="_blank" aria-hidden="true" data-icon="&#x53;"></a></li>
+            {/block:IfSoundCloudLink}
+            {block:IfSpotifyLink}
+            <li><a href="{text:Spotify Link}" target="_blank" aria-hidden="true" data-icon="&#x6d;"></a></li>
+            {/block:IfSpotifyLink}
+            {block:IfLinkedInLink}
+            <li><a href="{text:LinkedIn Link}" target="_blank" aria-hidden="true" data-icon="&#x4c;"></a></li>
+            {/block:IfLinkedInLink}
+            {block:IfFlickrLink}
+            <li><a href="{text:Flickr Link}" target="_blank" aria-hidden="true" data-icon="&#x267e;"></a></li>
+            {/block:IfFlickrLink}
+            {block:IfMediumLink}
+            <li><a href="{text:Medium Link}" target="_blank" aria-hidden="true" data-icon="&#x4d;"></a></li>
+            {/block:IfMediumLink}
+            {block:IfVineLink}
+            <li><a href="{text:Vine Link}" target="_blank" aria-hidden="true" data-icon="&#x76;"></a></li>
+            {/block:IfVineLink}
+            {block:IfVKLink}
+            <li><a href="{text:VK Link}" target="_blank" aria-hidden="true" data-icon="&#x6b;"></a></li>
+            {/block:IfVKLink}
+            {block:IfPicasaLink}
+            <li><a href="{text:Picasa Link}" target="_blank" aria-hidden="true" data-icon="&#x4f;"></a></li>
+            {/block:IfPicasaLink}
+            {block:IfGitHubLink}
+            <li><a href="{text:GitHub Link}" target="_blank" aria-hidden="true" data-icon="&#x48;"></a></li>
+            {/block:IfGitHubLink}
+            {block:IfLastFmLink}
+            <li><a href="{text:LastFm Link}" target="_blank" aria-hidden="true" data-icon="&#x41;"></a></li>
+            {/block:IfLastFmLink}
+            {block:IfBloggerLink}
+            <li><a href="{text:Blogger Link}" target="_blank" aria-hidden="true" data-icon="&#x42;"></a></li>
+            {/block:IfBloggerLink}
+        </ul>
+        <div class="footer">
+        {block:IfMenuFooterText}<hr>
+        <p>{text:Menu Footer Text}</p>
+        {/block:IfMenuFooterText}
+        </div>
+    </nav>
+    <div class="pusher">
+        <div id="content-wrapper">
+            <div class="grid{block:IndexPage} {select:Layout Type}{/block:IndexPage}{block:SearchPage} one-col{/block:SearchPage}{block:PermalinkPage} permapage{/block:PermalinkPage}{block:SearchPage} searchpage{/block:SearchPage}">
+                <article class="logo logo-{AvatarShape}">
+                    {block:ShowAvatar}<a href="/"><img src="{PortraitURL-128}" alt="{Title}"></a>{/block:ShowAvatar}
+                    {block:ShowTitle}
+                    <h1><a href="/">{block:IfBoldTitle}<strong>{/block:IfBoldTitle}{Title}{block:IfBoldTitle}</strong>{/block:IfBoldTitle}</a></h1>
+                    {/block:ShowTitle}
+                    {block:IndexPage}
+                    {block:ShowDescription}
+                    {block:Description}
+                    <h2 {block:SearchPage}class="hide"{/block:SearchPage} >{Description}</h2>
+                    {/block:Description}
+                    {/block:ShowDescription}
+                    {block:SearchPage}<h2 class="search-results {block:NoSearchResults}hide{/block:NoSearchResults}">{lang:Search results for SearchQuery 2}</h2>{/block:SearchPage}
+                    {block:NoSearchResults}<h2 class="search-results">{lang:Sorry no posts found}</h2>{/block:NoSearchResults}
+                    {/block:IndexPage}
+                </article>
+                <div class="init-posts">
+                {block:Posts inlineMediaWidth="1280"}
+                    {block:Text}
+                    <article class="post-text" id="{PostID}">
+                        <div class="post-content">
+                            <div class="post-content--padded">
+                                {block:Title}<a href="{Permalink}"><h2>{Title}</h2></a>{/block:Title}
+                                {Body}
+                    {/block:Text}
+                    {block:Photo}
+                    <article class="post-photo" id="{PostID}">
+                        <div class="post-content">
+                        {block:IndexPage}<a href="{Permalink}"><img src="{PhotoURL-500}" data-highres="{PhotoURL-HighRes}" alt="{PhotoAlt}"></a>{/block:IndexPage}
+                        {block:PermalinkPage}{LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}">{LinkCloseTag}{/block:PermalinkPage}
+                            <div class="post-content--padded">
+                                {block:Caption}<p>{Caption}</p>{/block:Caption}
+                    {/block:Photo}
+                    {block:Photoset}
+                    <article class="post-photoset" id="{PostID}">
+                        <div class="post-content">
+                            <div class="photo-slideshow" id="photoset_{PostID}" data-layout="{PhotosetLayout}">
+                              {block:Photos}
+                                <div class="photo-data">
+                                  <a rel="post-{PostID}" href="{PhotoURL-HighRes}" {block:Caption}title="{Caption}"{/block:Caption}>
+                                  <div class="pxu-photo">
+                                    <img alt="{PhotoAlt}" src="{PhotoURL-500}" width="{PhotoWidth-500}" height="{PhotoHeight-500}" data-highres="{PhotoURL-HighRes}" data-width="{PhotoWidth-HighRes}" data-height="{PhotoHeight-HighRes}">
+                                  </div>
+                                  </a>
+                                </div>
+                              {/block:Photos}
+                            </div>
+                            <div class="post-content--padded">
+                                {block:Caption}<p>{Caption}</p>{/block:Caption}
+                    {/block:Photoset}
+                    {block:Panorama}
+                    <article class="post-panorama" id="{PostID}">
+                        <div class="post-content">
+                        {LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+                            <div class="post-content--padded">
+                                {block:Caption}{Caption}{/block:Caption}
+                    {/block:Panorama}
+                    {block:Quote}
+                    <article class="post-qoute" id="{PostID}">
+                        <div class="post-content">
+                            <div class="post-content--padded">
+                                <blockquote>"{Quote}"</blockquote>
+                                {block:Source}<cite>- {Source}</cite>{/block:Source}
+                    {/block:Quote}
+                    {block:Link}
+                    <article class="post-link" id="{PostID}">
+                        <div class="post-content">
+                            <a href="{URL}" target="_blank" class="link">
+                                {block:Thumbnail}
+                                    <img src="{Thumbnail-HighRes}" alt="{Name}" class="post-link-img">
+                                    {block:Host}<p class="post-link-host">{host}</p>{/block:Host}
+                                {/block:Thumbnail}
+                                <h2>{Name} <i aria-hidden="true" data-icon="&#x25ba;"></i></h2>
+                                {block:Excerpt}<p class="post-link-excerpt">{Excerpt}</p>{/block:Excerpt}
+                            </a>
+                            <div class="post-content--padded">
+                                {block:Description}{Description}{/block:Description}
+                    {/block:Link}
+                    {block:Chat}
+                    <article class="post-chat" id="{PostID}">
+                        <div class="post-content">
+                            <div class="post-content--padded">
+                                {block:Title}<a href="{Permalink}"><h2>{Title}</h2></a>{/block:Title}
+                                {Body}
+                                <div class="chat">
+                                    {block:Lines}
+                                        {block:Label}<p><span>{Label} </span>{/block:Label} {Line}</p>
+                                    {/block:Lines}
+                                </div>
+                    {/block:Chat}
+                    {block:Audio}
+                    <article class="post-audio" id="{PostID}">
+                        <div class="post-content">
+                            <div class="post-content--padded">
+                                {block:TrackName}<a href="{Permalink}"><h2>{TrackName}</h2></a>{/block:TrackName}
+                            </div>
+                                {block:AlbumArt}<img src="{AlbumArtURL}"/>{/block:AlbumArt}
+                                {AudioEmbed-400}
+                            <div class="post-content--padded">
+                                {block:Caption}<p>{Caption}</p>{/block:Caption}
+                    {/block:Audio}
+                    {block:Video}
+                    <article class="post-video" id="{PostID}">
+                        <div class="post-content">
+                            <div class="video-player">{Video-500}</div>
+                            <div class="post-content--padded">
+                                {block:Caption}<p>{Caption}</p>{/block:Caption}
+                     {/block:Video}
+                    {block:Answer}
+                    <article class="post-answer" id="{PostID}">
+                        <div class="post-content">
+                            <div class="post-content--padded">
+                                <div class="question">
+                                    <div class="inside">
+                                        <div class="gw">
+                                            <div class="g one-fifth">
+                                                <img src="{AskerPortraitURL-96}">
+                                            </div>
+                                            <div class="g four-fifths">
+                                                <p class="title">{lang:Asker asked}:</p>
+                                                <p class="content">{Question}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {block:Answerer}
+                                    <div class="gw">
+                                        <div class="g one-fifth">
+                                            <img src="{AnswererPortraitURL-96}">
+                                        </div>
+                                        <div class="g four-fifths">
+                                            <p class="title">{Answerer} {lang:Answer}:</p>
+                                            <p class="content">{Answer}</p>
+                                        </div>
+                                    </div>
+                                    {/block:Answerer}
+                                    <div class="post-answer__reply">{Replies}</div>
+                                </div>
+                     {/block:Answer}
+                                {block:HasTags}
+                                <span class="tags">
+                                    <p>
+                                    {block:Tags}
+                                        <a href="{TagURL}">{Tag}</a>
+                                    {/block:Tags}
+                                    </p>
+                                </span>
+                                {/block:HasTags}
+                                <div class="actions">
+                                    <hr>
+                                    <a href="{ReblogURL}" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"></a>
+                                    <div class="like-wrap">
+                                        <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                        {LikeButton color="black" size="14"}
+                                    </div>
+                                    <div class="share-wrap">
+                                        <a href="#" class="share_button icon-share js-share action" aria-hidden="true"></a>
+                                        <a href="#" class="share_button icon-close js-share action" aria-hidden="true"></a>
+                                        <div class="share">
+                                            <a href="https://twitter.com/intent/tweet?text={URLEncodedTweetSummary}" target="_blank" class="icon-twitter" aria-hidden="true" data-icon="&#x54;"></a>
+                                            <a href="http://facebook.com/sharer.php?u={URLEncodedPermalink}&amp;t={URLEncodedTitle}" target="_blank" class="icon-facebook" aria-hidden="true" data-icon="&#x46;"></a>
+                                            <a href="https://plus.google.com/share?url={URLEncodedPermalink}" target="_blank" class="icon-googleplus" aria-hidden="true" data-icon="&#x47;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        {block:Date}
+                                        <a href="{Permalink}">{ShortMonth} {DayOfMonthWithZero}, {Year}</a>
+                                        {/block:Date}
+                                    </div>
+                                </div>
+                                {PostNotes-16}
+                            </div>
+                        </div>
+                    </article>
+                {/block:Posts}
+                </div><!-- END POSTS -->
+            </div><!-- END CONTENT -->
+            {block:IndexPage}
+            <div class="bottom-nav {block:SearchPage}hide{/block:SearchPage}{block:TagPage}hide{/block:TagPage}">
+                <a href="#container" aria-hidden="true" data-icon="&#x25b2;" class="scroll-top{block:NoSearchResults} hide{/block:NoSearchResults}"></a><br><a href="#" class="load-more" aria-hidden="true" data-icon="&#x25bc;" ></a>
+            </div>
+            <div class="pagination {block:SearchPage}show{/block:SearchPage}{block:TagPage}show{/block:TagPage}">
+                {block:PreviousPage}
+                <a href="{PreviousPage}" class="prev" aria-hidden="true" data-icon="&#x25c4;"></a>
+                {/block:PreviousPage}
+                <a href="#" aria-hidden="true" data-icon="&#x25b2;" class="scroll-top{block:NoSearchResults} hide{/block:NoSearchResults}"></a>
+                {block:NextPage}
+                <a href="{NextPage}" class="next" aria-hidden="true" data-icon="&#x25ba;"></a>
+                {/block:NextPage}
+            </div>
+            {/block:IndexPage}
+            {block:PermalinkPagination}
+            <div class="pagination show">
+                {block:PreviousPost}
+                <a href="{PreviousPost}" class="prev" aria-hidden="true" data-icon="&#x25c4;"></a>
+                {/block:PreviousPost}
+                {block:NextPost}
+                <a href="{NextPost}" class="next" aria-hidden="true" data-icon="&#x25ba;"></a>
+                {/block:NextPost}
+            </div>
+            {/block:PermalinkPagination}
+            <p class="safeasmilk"><a href="http://safeasmilk.co" target="_blank">Indy Theme by Safe As Milk</a></p>
+        </div>
+        <!--END CONTENT WRAPPER -->
+    </div>
+    <!-- END PUSHER -->
+</div>
+<script>
+    var wordClose = "{lang:Close}";
+    var wordLoading = "{lang:Loading}";
+</script>
+<script src="//static.tumblr.com/vexeq8y/tJWnlzwcq/jquery.js"></script>
+<script src="//static.tumblr.com/vexeq8y/voEnlzwbm/plugins.js"></script>
+<script src="//static.tumblr.com/vexeq8y/V2loc04wc/app.js"></script>
+{block:IfGoogleAnalyticsID}
+<script>
+var _gaq=[['_setAccount','{text:Google Analytics ID}'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+{/block:IfGoogleAnalyticsID}
+{block:IfExtraScripts}{text:Extra Scripts}{/block:IfExtraScripts}
+<!--Theme version 3.2.2-->
+<!--Background patterns courtesy of subtlepatterns.com-->
+</body>
+</html>
