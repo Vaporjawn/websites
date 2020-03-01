@@ -1,5 +1,5 @@
 # websites
-Websites that i coded myself 
+Websites that I coded myself
 
 #How to run website template
 
@@ -7,8 +7,25 @@ Websites that i coded myself
 
 1. Download the folder that it belongs in
 
-2. Open the folder and open the file called index.html 
+2. Open the folder and open the file called index.html
 
 3. View your webpage!
 
 If there's any issues just leave a comment or message me
+
+#Table of Contents
+
+##Barren Theme
+[website]()
+
+##Modest
+[website](https://github.com/Vaporjawn/websites/tree/master/Modest)
+
+##Retro Hacker Theme
+[website]()
+
+##Tumblr Websites
+[website](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
+
+##Wiggly Text
+[website](https://github.com/Vaporjawn/websites/tree/master/Wiggly%20Text)
