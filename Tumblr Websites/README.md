@@ -8,4 +8,4 @@ Maybe something better will come of it in the future...
 console.log("Tumblr is dead.");
 ```
 
-### [Websites] (https://github.com/Vaporjawn/websites)
+### [Websites](https://github.com/Vaporjawn/websites)

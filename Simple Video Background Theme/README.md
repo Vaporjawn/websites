@@ -4,4 +4,4 @@ This is one of the cleanest themes that a minimalist can have.  It utilizes eith
 
 ![website](website.png)
 
-### [Websites] (https://github.com/Vaporjawn/websites)
+### [Websites](https://github.com/Vaporjawn/websites)

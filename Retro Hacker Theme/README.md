@@ -3,4 +3,4 @@
 
 ![website](website.png)
 
-### [Websites] (https://github.com/Vaporjawn/websites)
+### [Websites](https://github.com/Vaporjawn/websites)
