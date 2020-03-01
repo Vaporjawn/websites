@@ -1,7 +1,9 @@
 # websites
 Websites that I coded myself
 
-#How to run website template
+
+# How to run website template
+
 
 -The easiest way to view the website template is to
 
@@ -15,19 +17,16 @@ Websites that I coded myself
 
 If there's any issues just leave a comment or message me
 
-#Table of Contents
+# Table of Contents
 
-##Barren Theme
-[website](https://github.com/Vaporjawn/websites/tree/master/Barren%20Theme)
+## [Barren Theme](https://github.com/Vaporjawn/websites/tree/master/Barren%20Theme)
 
-##Modest
-[website](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
-##Retro Hacker Theme
-[website](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
+## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
-##Tumblr Websites
-[website](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
+## [Retro Hacker Theme](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
 
-##Wiggly Text
-[website](https://github.com/Vaporjawn/websites/tree/master/Wiggly%20Text)
+
+## [Tumblr Websites](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
+
+## [Wiggly Text](https://github.com/Vaporjawn/websites/tree/master/Wiggly%20Text)
