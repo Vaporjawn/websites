@@ -5,7 +5,9 @@ Websites that I coded myself
 
 -The easiest way to view the website template is to
 
-1. Download the folder that it belongs in
+1. Download the folder that it belongs in (Select Download Zip)
+
+![Download example](https://www.stevejgordon.co.uk/wp-content/uploads/2018/01/CloneOrDownloadGitHub.png)
 
 2. Open the folder and open the file called index.html
 
@@ -16,13 +18,13 @@ If there's any issues just leave a comment or message me
 #Table of Contents
 
 ##Barren Theme
-[website]()
+[website](https://github.com/Vaporjawn/websites/tree/master/Barren%20Theme)
 
 ##Modest
 [website](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
 ##Retro Hacker Theme
-[website]()
+[website](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
 
 ##Tumblr Websites
 [website](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
