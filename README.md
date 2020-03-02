@@ -34,3 +34,5 @@ If there's any issues just leave a comment or message me
 ## [Tumblr Websites](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
 
 ## [Wiggly Text](https://github.com/Vaporjawn/websites/tree/master/Wiggly%20Text)
+
+## [Work Desk Theme](https://github.com/Vaporjawn/websites/tree/master/Work%20Desk%20Theme)
