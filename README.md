@@ -21,6 +21,7 @@ If there's any issues just leave a comment or message me
 
 ## [Barren Theme](https://github.com/Vaporjawn/websites/tree/master/Barren%20Theme)
 
+## [Blog Theme](https://github.com/Vaporjawn/websites/tree/master/Blog%20Theme)
 
 ## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
