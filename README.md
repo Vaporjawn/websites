@@ -23,6 +23,10 @@ If there's any issues just leave a comment or message me
 
 ## [Blog Theme](https://github.com/Vaporjawn/websites/tree/master/Blog%20Theme)
 
+## [Clean Purple Theme](https://github.com/Vaporjawn/websites/tree/master/Clean%20Purple%20Theme)
+
+## [Hackathon Theme](https://github.com/Vaporjawn/Websites/tree/master/Hackathon%20Theme)
+
 ## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
 ## [Retro Hacker Theme](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
