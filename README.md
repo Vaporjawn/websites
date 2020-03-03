@@ -1,6 +1,13 @@
 # Websites
 Websites that I coded myself
 
+```
+System.out.println("I'm currently compiling all of the websites that I've coded over the years.");
+```
+```
+Console.log("Thank you for you patience.")
+```
+
 
 # How to run website template
 
@@ -21,6 +28,8 @@ If there's any issues just leave a comment or message me
 
 ## [Barren Theme](https://github.com/Vaporjawn/websites/tree/master/Barren%20Theme)
 
+## [Beach Theme](https://github.com/Vaporjawn/websites/tree/master/Beach%20Theme)
+
 ## [Blog Theme](https://github.com/Vaporjawn/websites/tree/master/Blog%20Theme)
 
 ## [Clean Purple Theme](https://github.com/Vaporjawn/websites/tree/master/Clean%20Purple%20Theme)
@@ -30,6 +39,12 @@ If there's any issues just leave a comment or message me
 ## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
 ## [Retro Hacker Theme](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
+
+## [Simple Video Background Theme](https://github.com/Vaporjawn/websites/tree/master/Simple%20Video%20Background%20Theme)
+
+## [Text Based](https://github.com/Vaporjawn/websites/tree/master/Text%20Based)
+
+## [Text Based 2](https://github.com/Vaporjawn/websites/tree/master/Text%20Based%202)
 
 ## [Tumblr Websites](https://github.com/Vaporjawn/websites/tree/master/Tumblr%20Websites)
 
