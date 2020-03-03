@@ -36,6 +36,8 @@ If there's any issues just leave a comment or message me
 
 ## [Hackathon Theme](https://github.com/Vaporjawn/Websites/tree/master/Hackathon%20Theme)
 
+## [Light Switch](https://github.com/Vaporjawn/websites/tree/master/Light%20Switch)
+
 ## [Mint](https://github.com/Vaporjawn/websites/tree/master/Mint)
 
 ## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
