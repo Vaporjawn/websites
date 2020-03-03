@@ -36,6 +36,8 @@ If there's any issues just leave a comment or message me
 
 ## [Hackathon Theme](https://github.com/Vaporjawn/Websites/tree/master/Hackathon%20Theme)
 
+## [Mint](https://github.com/Vaporjawn/websites/tree/master/Mint)
+
 ## [Modest](https://github.com/Vaporjawn/websites/tree/master/Modest)
 
 ## [Retro Hacker Theme](https://github.com/Vaporjawn/websites/tree/master/Retro%20Hacker%20Theme)
