@@ -34,6 +34,8 @@ If there's any issues just leave a comment or message me
 
 ## [Clean Purple Theme](https://github.com/Vaporjawn/websites/tree/master/Clean%20Purple%20Theme)
 
+## [Concise](https://github.com/Vaporjawn/websites/tree/master/Concise)
+
 ## [Hackathon Theme](https://github.com/Vaporjawn/Websites/tree/master/Hackathon%20Theme)
 
 ## [Light Switch](https://github.com/Vaporjawn/websites/tree/master/Light%20Switch)
