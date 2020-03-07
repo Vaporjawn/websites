@@ -48,6 +48,8 @@ If there's any issues just leave a comment or message me
 
 ## [Simple Video Background Theme](https://github.com/Vaporjawn/websites/tree/master/Simple%20Video%20Background%20Theme)
 
+## [Slider](https://github.com/Vaporjawn/websites/tree/master/Slider)
+
 ## [Text Based](https://github.com/Vaporjawn/websites/tree/master/Text%20Based)
 
 ## [Text Based 2](https://github.com/Vaporjawn/websites/tree/master/Text%20Based%202)
