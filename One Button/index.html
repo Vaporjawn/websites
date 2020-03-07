@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Victor Williams - developer and designer</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ethan Lee is a locally acclaimed designer and developer, and a student at Santa Margarita Catholic High School. He enjoys writing, reading, and high voltages.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="keywords" content="Victor Williams,Victor,Williams,web,designer,developer,software,engineer,Temple University,SSBM,Vaporjawn,vaporwave">
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="llp.js"></script>
+        <style type="text/css">
+            body {
+                /*background-color: #E74C3C;*/
+                background-color: #2C3E50;
+            }
+
+            #ethan-sig svg {
+                width: 55%;
+                overflow: visible;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 25px;
+            }
+
+            .lazy-line {
+                width: 100% !important;
+                margin-top: -12%;
+                margin-bottom: 16%;
+                height: 20% !important;
+            }
+
+            #prof {
+                margin-top: 10%;
+                width: 150px;
+                border-radius: 50%;
+            }
+
+            .center-block {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            #tagln {
+                font-family: "Helvetica", "Arial", "Tw Cen MT", sans-serif;
+                font-weight: 700;
+                text-align: center;
+                color: #3498DB;
+            }
+
+            .container {
+                height: 100%;
+            }
+            /** NAVBAR **/
+            .nav {
+                background-color: #E74C3C;
+                text-align: right;
+                position: absolute;
+                padding: 10px 10px 10px 10px;
+                bottom: 35px;
+                right: 35px;
+            }
+
+            .nav ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                font-family: "Helvetica Neue", "Helvetica", "Segoe UI", "Arial", sans-serif;
+                font-size: 16pt;
+                font-weight: 700;
+            }
+
+            .nav li {
+                display: inline;
+                padding: 5px;
+            }
+
+            .nav li a {
+                text-decoration: none;
+                color: #ECF0F1;
+                text-transform: uppercase;
+            }
+
+            .nav li a:hover {
+                border-bottom: 5px solid #ECF0F1;
+            }
+
+            #top {
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            #top > p {
+                color: #ECF0F1;
+                font-size: 12pt;
+                font-family: "Helvetica Neue", "Helvetica", "Segoe UI", "Arial", sans-serif;
+            }
+
+            #contact-link {
+                margin-top: 50px;
+            }
+
+            a.contact {
+                font-family: "Tw Cen MT", "Helvetica", "Segoe UI", "Arial", sans-serif;
+                border: 5px solid #ECF0F1;
+                padding: 10px;
+                color: #ECF0F1;
+                border-radius: 10px;
+                text-decoration: none;
+                font-size: 24pt;
+                font-weight: 700;
+            }
+
+            a.contact:hover {
+                background-color: #ECF0F1;
+                color: #2C3E50;
+            }
+
+            video#wbg {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                background: #2C3E50 no-repeat;
+                background-size: cover;
+            }
+
+            @media only screen
+            /*and (min-width : 320px) */
+            and (max-width : 480px) {
+                .lazy-line {
+                    width: 100% !important;
+                    height: 160px !important;
+                }
+
+                #prof {
+                    width: 100px;
+                }
+
+                #tagln {
+                    font-weight: 100;
+                }
+
+                #contact-link {
+                    font-weight: 100;
+                }
+
+                #ethan-sig svg {
+                    margin-top: -20%;
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .nav {
+                    text-align: center;
+                    width: 100%;
+                    bottom: 0;
+                    right: 0;
+                    padding: 10px 0px 10px 0px;
+                }
+
+                .nav > ul {
+                    display: block;
+                }
+
+                #top {
+                    width: 100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <img src="./img/avatar.jpg" id="prof" class="center-block" />
+        <img src="./img/victor-sig.png" alt="my signature" align="middle" />
+        <div id="victor-sig" class="center-block"></div>
+
+        <script type="text/javascript">
+                var pathObj = {
+                    "victor-sig": {
+                        "strokepath": [
+                            {
+                                "path": "m 42.466952,637.97311 c 50.67099,-47.03926 84.514718,-110.57269 133.185288,-159.24327 63.86257,-63.86256 -83.204512,88.68771 -40.53466,110.02262 19.56579,9.78289 139.8715,-152.79107 150.55727,-167.92926 48.3871,-68.54837 83.81085,-147.43125 130.28994,-217.1499 3.89739,-5.84608 -1.23543,-20.26733 5.79067,-20.26733 14.73178,0 -14.99094,25.38173 -23.16265,37.63931 -12.31022,18.46533 -23.52884,38.84091 -34.74398,57.90664 -47.84535,81.33709 -85.19764,170.39525 -127.39462,254.78924 -3.95293,7.90584 -34.92457,59.71647 -20.26734,69.48796 12.9817,8.65445 94.63875,-134.49651 101.33662,-144.76661 68.59687,-105.18183 153.19148,-185.04011 240.31258,-272.16122 8.77796,-8.77795 -38.30943,39.93011 -66.59262,81.06931 -54.58034,79.38954 -110.27874,159.75546 -153.45262,246.10323 -5.75295,11.50589 -8.7835,23.35769 -14.47667,34.74399 -66.97617,133.95235 76.64436,-99.97092 98.4413,-78.17397 9.41971,9.41971 -40.27752,61.31621 -31.84864,78.17397 3.08517,6.17035 69.75255,-69.22339 81.06929,-57.90665 2.27839,2.27839 -29.72305,57.90665 -28.95332,57.90665 14.68812,0 29.44236,-43.42998 49.22066,-43.42998 13.28846,0 -23.34776,42.68965 -14.47667,78.17396 6.69053,26.76212 49.4455,2.83912 60.80196,0",
+                                "duration": 1300
+                            },
+                            {
+                                "path": "M 164.0709,420.8232 C 356.93912,349.58378 590.06156,351.33523 795.2533,351.33523",
+                                "duration": 700
+                            },
+                            {
+                                "path": "M 595.47539,617.70578 C 676.133,513.94371 748.25176,401.93554 824.20663,293.42858 c 19.44329,-27.77612 91.0391,-99.09676 81.06929,-138.97593 -5.91158,-23.64638 -64.23969,73.34125 -112.91795,185.30125 -23.55022,54.1655 -51.93396,106.63326 -72.38331,162.1386 -98.76338,268.07205 114.61289,-119.90903 141.87128,-92.65064 1.75377,1.75379 -89.75529,102.90293 -89.75529,124.4993 0,17.52737 115.69224,-73.95134 121.60394,-78.17397 7.73473,-5.52481 31.33055,-19.49017 26.058,-11.58134 -10.76712,16.15067 -123.68652,159.91375 -11.58134,92.65063",
+                                "duration": 900
+                            }
+                        ],
+                        "dimensions": {
+                            "width": 1100,
+                            "height": 300
+                        }
+                    }
+                };
+
+                 $(document).ready(function(){
+                    $("#prof").css('opacity', '0');
+                    $(".nav").css('opacity', '0');
+                    $("#top").css('opacity', '0');
+
+                     $('#ethan-sig').lazylinepainter({
+                        "svgData": pathObj,
+                        "strokeWidth": 10,
+                        "strokeColor": "#ECF0F1",
+                            "onComplete": function() {
+                            $("#prof").animate({opacity: 1}, 600);
+                            $(".nav").animate({opacity: 1}, 600);
+                            $("#top").animate({opacity: 1}, 600);
+                        }
+                        }).lazylinepainter('paint');
+/*
+                        $('#ethan-sig').lazylinepainter({
+                        "svgData": pathObj,
+                        "strokeWidth": 10,
+                        "strokeColor": "#ECF0F1"
+                        }).lazylinepainter('paint');
+
+                        $('#ethan-sig').lazylinepainter({
+                        "svgData": pathObj,
+                        "strokeWidth": 10,
+                        "strokeColor": "#ECF0F1",
+                        "onComplete": function() {
+                            $("#prof").fadeIn("slow");
+                            $("#tagln").fadeIn("slow");
+                        }
+                        }).lazylinepainter('paint'); */
+                 });
+
+        </script>
+        <div id="top">
+        <video autoplay loop poster="img/poster.png" id="wbg">
+        <source src="static/wbg.webm" type="video/webm">
+        <source src="static/wbg.mp4" type="video/mp4">
+        </video>
+        <h1 id="tagln">DESIGNER &amp; DEVELOPER</h1>
+        <p id="contact-link" class="center-block"><a href="mailto:vrwilliams719@gmail.com/" class="contact">Get in touch</a></p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="https://twitter.com/Vaporjawn">Twitter</a></li>
+                <li><a href="https://github.com/Vaporjawn">GitHub</a></li>
+                <!--<li><a href="">Portfolio</a></li>-->
+                <li><a href="http://Vaporjawn.github.io/">Blog</a></li>
+                <!--<li><a href="/school">Finals</a></li>-->
+            </ul>
+        </div>
+        </div>
+        <script data-cfasync="false" src="./scripts/email-decode.min.js"></script><script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-86912922-3', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
