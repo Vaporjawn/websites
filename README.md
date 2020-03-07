@@ -54,6 +54,8 @@ If there's any issues just leave a comment or message me
 
 ## [Slider](https://github.com/Vaporjawn/websites/tree/master/Slider)
 
+## [Sunset](https://github.com/Vaporjawn/websites/tree/master/Sunset)
+
 ## [Text Based](https://github.com/Vaporjawn/websites/tree/master/Text%20Based)
 
 ## [Text Based 2](https://github.com/Vaporjawn/websites/tree/master/Text%20Based%202)
