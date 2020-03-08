@@ -32,6 +32,8 @@ If there's any issues just leave a comment or message me
 
 ## [Blog Theme](https://github.com/Vaporjawn/websites/tree/master/Blog%20Theme)
 
+## [Centered](https://github.com/Vaporjawn/websites/tree/master/Centered)
+
 ## [Clean Purple Theme](https://github.com/Vaporjawn/websites/tree/master/Clean%20Purple%20Theme)
 
 ## [Concise](https://github.com/Vaporjawn/websites/tree/master/Concise)
