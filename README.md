@@ -38,6 +38,8 @@ If there's any issues just leave a comment or message me
 
 ## [Hackathon Theme](https://github.com/Vaporjawn/Websites/tree/master/Hackathon%20Theme)
 
+## [Hello World](https://GitHub.com/Vaporjawn/websites/tree/master/Hello%20World)
+
 ## [Junior Dev](https://github.com/Vaporjawn/Websites/tree/master/Junior%20Dev)
 
 ## [Light Switch](https://github.com/Vaporjawn/websites/tree/master/Light%20Switch)
